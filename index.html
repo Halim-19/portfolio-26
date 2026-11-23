@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Halim Bensalem – Full-Stack &amp; Intelligent Systems Engineer</title>
+  <meta name="description" content="Full-stack engineer building web apps, desktop software and computer-vision tools.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top">
+    <a id="brand" class="brand" href="#/" data-r="home">~/halim</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/" data-r="home">Home</a>
+      <a href="#services" data-r="services">Services</a>
+      <a href="#/projects" data-r="projects">Projects</a>
+      <a href="#/contact" data-r="contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="view-home">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="avail"><i aria-hidden="true"></i>Available for new projects</p>
+          <h1 id="heroTitle">Halim Bensalem</h1>
+          <p id="heroRole" class="role"></p>
+          <p id="heroIntro" class="lead"></p>
+          <div class="hero-actions">
+            <a class="btn" href="#/contact">Contact</a>
+            <a class="link" href="#/projects">View projects</a>
+          </div>
+        </div>
+        <img id="photo" class="portrait" alt="" width="520" height="650" fetchpriority="high">
+      </div>
+
+      <section id="services" class="services" aria-labelledby="servicesTitle">
+        <h2 id="servicesTitle">Services</h2>
+        <dl class="svc">
+          <div>
+            <dt>Websites and online stores</dt>
+            <dd class="what">Company sites, stores and event platforms. Recent work: SIBAQUI, a race-registration
+              platform, and BRICOMM, an online store for the Algerian market.</dd>
+            <dd class="stack">Next.js, React, TypeScript, Supabase</dd>
+          </div>
+          <div>
+            <dt>Mobile apps</dt>
+            <dd class="what">Cross-platform apps for iOS and Android. Recent work: Diabetes Care, with glucose logging,
+              nutrition and activity tracking, and exportable reports.</dd>
+            <dd class="stack">React Native, Expo</dd>
+          </div>
+          <div>
+            <dt>Desktop software</dt>
+            <dd class="what">Business software that keeps working offline. Recent work: school, clinic and supermarket
+              management systems.</dd>
+            <dd class="stack">Tauri, Rust, React, SQLite</dd>
+          </div>
+          <div>
+            <dt>AI and automation</dt>
+            <dd class="what">Extracting data from documents such as ID cards with OCR and locally run language models.
+            </dd>
+            <dd class="stack">Python, OCR, local LLMs</dd>
+          </div>
+          <div>
+            <dt>Computer vision</dt>
+            <dd class="what">Object detection on live camera feeds. Recent work: AGRI-AI Command, which detects weeds
+              with YOLOv8 and guides a robotic arm to them.</dd>
+            <dd class="stack">Python, OpenCV, YOLO</dd>
+          </div>
+        </dl>
+        <p class="after"><a class="link" href="#/contact">Discuss a project</a></p>
+      </section>
+    </section>
+
+    <section id="view-projects" class="page" hidden>
+      <h1>Projects</h1>
+      <div id="filters" class="filters" role="group" aria-label="Filter projects by category"></div>
+      <p id="filterStatus" class="sr" role="status"></p>
+      <div id="cards" class="cards"></div>
+    </section>
+
+    <section id="view-contact" class="page narrow" hidden>
+      <h1>Contact</h1>
+      <p id="contactIntro" class="lead"></p>
+      <dl id="info" class="info"></dl>
+    </section>
+  </main>
+
+  <footer class="foot"><span id="footName"></span><span id="footLoc"></span></footer>
+  <script src="app.js"></script>
+</body>
+
+</html>

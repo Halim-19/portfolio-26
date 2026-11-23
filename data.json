@@ -1,0 +1,194 @@
+{
+  "profile": {
+    "name": "Halim",
+    "role": "Full-Stack & Intelligent Systems Engineer",
+    "intro": "I build modern web applications, SaaS platforms, business management systems, and AI-powered solutions. I help startups, businesses, and digital agencies turn ideas into reliable software through clean engineering, practical problem-solving, and scalable architecture.",
+    "photo": "assets/me.png",
+    "photoAlt": "Portrait of Halim Bensalem",
+    "stats": [
+      {
+        "value": "SaaS",
+        "label": "product development"
+      },
+      {
+        "value": "AI",
+        "label": "intelligent integrations"
+      }
+    ]
+  },
+  "contact": {
+    "email": "bensalemhalim19@gmail.com",
+    "phone": "+213551085452",
+    "location": "Algeria",
+    "availability": "Open to international projects and agency partnerships",
+    "intro": "Have a project, need extra development capacity, or want to integrate AI into your product? Let's discuss how I can help. Available for remote collaboration with clients and agencies across the UAE, Saudi Arabia, and internationally.",
+    "projectTypes": [
+      "Website Development",
+      "SaaS & Web Applications",
+      "AI Integration & Automation",
+      "Business Management Software",
+      "Agency Development Partnerships",
+      "MVP Development"
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "SIBAQUI",
+      "category": "SaaS",
+      "type": "Web application",
+      "year": 2026,
+      "file": "./assets/sibaqui.png",
+      "description": "A sports events platform that helps participants discover running events, register for races, and access event information while giving organizers tools to manage their events.",
+      "tags": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Supabase",
+        "SaaS"
+      ],
+      "url": "https://sibaqui.com"
+    },
+    {
+      "id": 2,
+      "title": "Private School Management System",
+      "category": "Business Software",
+      "type": "Desktop application",
+      "year": 2025,
+      "file": "assets/scholl.jpg",
+      "description": "A school management application designed to streamline administrative workflows, organize school data, and support multilingual usage with offline-capable local data storage.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Tauri",
+        "SQLite",
+        "Supabase"
+      ],
+      "url": "https://frameless-agency-rust.vercel.app/projects/managments/school"
+    },
+    {
+      "id": 3,
+      "title": "Clinic Management Application",
+      "category": "Business Software",
+      "type": "Desktop application",
+      "year": 2025,
+      "file": "assets/medicale.jpg",
+      "description": "A desktop application concept for managing clinic workflows, patient records, appointments, and medical administration through a focused interface and local database.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Tauri",
+        "Rust",
+        "SQLite"
+      ],
+      "url": "https://frameless-agency-rust.vercel.app/projects/managments/doctors"
+    },
+    {
+      "id": 4,
+      "title": "Supermarket Cashier & Stock Management System",
+      "category": "Business Software",
+      "type": "Desktop application",
+      "year": 2025,
+      "file": "assets/supermarket.png",
+      "description": "A supermarket management application designed to support inventory tracking, cashier and administrator workflows, and low-stock monitoring with multilingual support.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Tauri",
+        "SQLite",
+        "Inventory Management",
+        "i18n"
+      ],
+      "url": "https://frameless-agency-rust.vercel.app/projects/managments/supermarket"
+    },
+    {
+      "id": 5,
+      "title": "COCO",
+      "category": "E-commerce",
+      "type": "Online store",
+      "year": 2026,
+      "file": "assets/store.png",
+      "description": "An e-commerce platform concept for product discovery, online orders, administration, and delivery workflows tailored to the Algerian market.",
+      "tags": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Supabase",
+        "E-commerce"
+      ],
+      "url": "https://cocomascara.store"
+    },
+    {
+      "id": 6,
+      "title": "AI Document Analysis",
+      "category": "AI Applications",
+      "type": "Intelligent application",
+      "year": 2026,
+      "file": "assets/doc_analyzer.jpg",
+      "description": "An intelligent document-processing project exploring OCR and local AI models to extract and analyze information from identity documents and other structured documents.",
+      "tags": [
+        "Python",
+        "OCR",
+        "Local LLMs",
+        "AI Integration",
+        "Document Processing"
+      ],
+      "url": "",
+      "device": "browser"
+    },
+    {
+      "id": 7,
+      "title": "Diabetes Care Mobile App",
+      "category": "Mobile Applications",
+      "type": "Mobile application",
+      "year": 2026,
+      "file": "assets/diabetes-care.jpg",
+      "description": "A mobile app for people with diabetes to log and review blood glucose readings, track nutrition and activity, export health reports, and quickly access emergency contacts.",
+      "tags": [
+        "Diabetes Care",
+        "Blood Glucose Tracking",
+        "Nutrition",
+        "Activity Tracking",
+        "Health Reports",
+        "Emergency Support"
+      ],
+      "url": ""
+    },
+    {
+      "id": 8,
+      "title": "AGRI-AI Command",
+      "category": "AI Applications",
+      "type": "Intelligent application",
+      "year": 2026,
+      "file": "assets/agro-bot.jpg",
+      "description": "A control dashboard for an agricultural robot that detects weeds in live camera feeds with YOLOv8, tracks robot status and detection analytics, and guides a robotic arm to treat each target precisely.",
+      "tags": [
+        "Python",
+        "YOLOv8",
+        "Computer Vision",
+        "Robotics",
+        "Dashboard"
+      ],
+      "url": "",
+      "device": "desktop"
+    },
+    {
+      "id": 9,
+      "title": "Workshop Order Management",
+      "category": "Business Software",
+      "type": "Desktop application",
+      "year": 2026,
+      "file": "assets/workshop.png",
+      "description": "A management application for workshops to track customer orders, calculate material and labor costs, assign craftsmen and organize deliveries, with a full Arabic right-to-left interface.",
+      "tags": [
+        "Order Management",
+        "Cost Calculation",
+        "Delivery Tracking",
+        "Arabic RTL"
+      ],
+      "url": ""
+    }
+  ]
+}
