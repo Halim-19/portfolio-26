@@ -50,22 +50,40 @@
       "url": "https://sibaqui.com"
     },
     {
-      "id": 2,
-      "title": "Private School Management System",
-      "category": "Business Software",
-      "type": "Desktop application",
-      "year": 2025,
-      "file": "assets/scholl.jpg",
-      "description": "A school management application designed to streamline administrative workflows, organize school data, and support multilingual usage with offline-capable local data storage.",
+      "id": 10,
+      "title": "AI Sales Assistant for E-commerce",
+      "category": "AI Applications",
+      "type": "Chatbot & automation",
+      "year": 2026,
+      "file": "assets/n8n.png",
+      "description": "An AI chatbot for an Algerian online store that answers customers in Arabic, French and English, recommends products from the live catalog, and takes orders end to end: it collects delivery details, quotes the exact total, and places the order after the customer confirms. Built with strict database permissions so the AI can never access private business data.",
       "tags": [
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "Tauri",
-        "SQLite",
-        "Supabase"
+        "n8n",
+        "Telegram Bot",
+        "LLM Agents",
+        "Supabase",
+        "PostgreSQL",
+        "Automation"
       ],
-      "url": "https://frameless-agency-rust.vercel.app/projects/managments/school"
+      "url": ""
+    },
+    {
+      "id": 7,
+      "title": "Diabetes Care Mobile App",
+      "category": "Mobile Applications",
+      "type": "Mobile application",
+      "year": 2026,
+      "file": "assets/diabetes-care.jpg",
+      "description": "A mobile app for people with diabetes to log and review blood glucose readings, track nutrition and activity, export health reports, and quickly access emergency contacts.",
+      "tags": [
+        "Diabetes Care",
+        "Blood Glucose Tracking",
+        "Nutrition",
+        "Activity Tracking",
+        "Health Reports",
+        "Emergency Support"
+      ],
+      "url": ""
     },
     {
       "id": 3,
@@ -139,22 +157,22 @@
       "device": "browser"
     },
     {
-      "id": 7,
-      "title": "Diabetes Care Mobile App",
-      "category": "Mobile Applications",
-      "type": "Mobile application",
-      "year": 2026,
-      "file": "assets/diabetes-care.jpg",
-      "description": "A mobile app for people with diabetes to log and review blood glucose readings, track nutrition and activity, export health reports, and quickly access emergency contacts.",
+      "id": 2,
+      "title": "Private School Management System",
+      "category": "Business Software",
+      "type": "Desktop application",
+      "year": 2025,
+      "file": "assets/scholl.jpg",
+      "description": "A school management application designed to streamline administrative workflows, organize school data, and support multilingual usage with offline-capable local data storage.",
       "tags": [
-        "Diabetes Care",
-        "Blood Glucose Tracking",
-        "Nutrition",
-        "Activity Tracking",
-        "Health Reports",
-        "Emergency Support"
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Tauri",
+        "SQLite",
+        "Supabase"
       ],
-      "url": ""
+      "url": "https://frameless-agency-rust.vercel.app/projects/managments/school"
     },
     {
       "id": 8,
